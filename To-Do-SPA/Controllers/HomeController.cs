@@ -19,6 +19,10 @@ namespace To_Do_SPA.Controllers
         {
             return View();
         }
+        public IActionResult Todos()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

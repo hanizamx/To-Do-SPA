@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Todos";
+}
+
+<center><h1>Todos</h1></center>
+<form action="">
+    <div class="form-group">
+        <input type="text" class="form-control" id="AddTodos" placeholder="Add Todos" name="AddTodos">
+    </div>
+    <button type="submit" class="btn btn-primary" style="background-color:green">Add a todo</button>
+</form>
+<br />
+
+<ul id="list-group">
+    <li class="list-group-item"><input type="checkbox" name="remember" class="form-check-input"> Create Model</li>
+</ul>
+<center><h1>Already Done</h1></center>
+<ul id="list-group">
+    <li class="list-group-item"><del>Create Model</del><button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button></li>
+</ul>

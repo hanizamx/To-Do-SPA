@@ -57,7 +57,7 @@ namespace To_Do_SPA
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Todos}/{id?}");
             });
         }
     }
